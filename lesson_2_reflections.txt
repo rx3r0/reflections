@@ -1,0 +1,19 @@
+Lesson 2 Reflections
+
+What happens when you initalise a repository?  Why do you need to?
+
+The initialisation process creates the required metadata needed to
+keep track of the project.  Without it, there would be no way to track
+the history or do anything else.
+
+
+How is the staging area different from the working directory and the
+repository?  What value do you think it offers?
+
+The working directory is usually where all the files that are being
+edited are stored.  The staging area is the space where files are
+added before they can be commited.  On commit, the files in the
+staging area are added to the repository.
+
+
+

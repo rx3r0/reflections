@@ -16,4 +16,11 @@ added before they can be commited.  On commit, the files in the
 staging area are added to the repository.
 
 
+How can you use the staging area to make sure you have one commit per
+logical change?
 
+After each logical change, add the file or files with the logical
+change to the staging area.  To ensure that this is the change that is
+to be be committed, compare it to the working directory and to the
+most recent commit, or to the commit where the bug was introduced in
+the case of a bug fix.

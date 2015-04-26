@@ -34,3 +34,9 @@ from the main/master branch.  Trying an experimental feature or
 alternative version are good examples.  Using git's own built in
 mechanisms for keeping track of branches is much easier than trying to
 use some other manual method of doing so.
+
+
+How do the diagrams help you visualise the branch structure?
+
+The diagrams show the structure of the branch as it is but only from
+that branch.  Other commits not on that branch are likely to not be shown.

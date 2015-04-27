@@ -54,3 +54,14 @@ head.  Deleting that branch name will be inconsequential.
 The diagram shows were the commits branch off, then merge.  It is a
 visual aid for the programmer to help understand the commit,
 branching, and merging history of the project.
+
+
+What are the pros and cons for Git's automatic merging vs. always
+doing manual merges?
+
+There are some changes which appear "obvious".  These changes are
+often small, no-brainer type changes.  Automatic merging works best
+for this.  Doing manual merges would work fine as well, but if the
+changes are numerous, it would become very tedious.  However,
+automatic merges falls down in situations where the changes are not so
+clear cut and dry.  Manual merging works best here.

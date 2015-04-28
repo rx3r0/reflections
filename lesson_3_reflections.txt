@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+Keeping data in multiple locations is a good redundancy measure (if redundancy 
+is the right term). If, for example, something happened to the local work and it
+got corrupted, deleted, or otherwise lost, then it could be restrieved from the 
+remote repository.

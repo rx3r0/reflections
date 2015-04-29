@@ -13,3 +13,27 @@ Git automatically stay up-to-date with your remote repository?
 Pulling changes automatically may make changes to the local repository
 while work is still being done.  Manually pulling, say, after work is
 finished or before it starts would be better.
+
+
+Describe the differences between forks, clones, and branches.  When
+would you use one instead of another?
+
+A branch is an isolated environment with its own commits within the
+repository.  Branches are useful for creating alternate versions of
+the project, do experiments that do not affect the main project,
+create new features to be added to the project later, bug fixes, and
+many others.
+
+Cloning is the process of copying a remote repository to the local
+machine and automatically adding a remote.  However, it may not
+necessarily be possible to contribute back to the remote unless
+explicitly declared as a contributor.
+
+A fork is a complete copy of a repository.  However, this copy is
+usually placed in a different location in addition to the local
+machine.  With GitHub, forking copies the repository from another
+GitHub account to yours, but also adds some links back to the original
+project.  Unlike cloning, the programmer is free to push commits
+upstream to the fork.  A fork could be used to take an existing
+project and move it in an entirely different development direction
+from the original. 

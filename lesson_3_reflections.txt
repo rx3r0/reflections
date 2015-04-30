@@ -42,3 +42,28 @@ stored locally?
 All the most recent changes, additions, etc, will be present.  Therefore, when
 being away from an internet connection or some other similar situation, the
 programmer will have the most recent versions of the repository to work with.
+
+
+How would you collaborate without using Git or Github?  What would be easier,
+and what would be harder?
+
+I have spent a very long time working without Git or Github and it has been
+difficult.  Collaboration is very possible, but frequently problematic.
+Comparing code, doing diffs basically, is impossible without diff or git,
+especially on Windows which doesn't have anything built in.  Most of my prior
+experience is on Windows.
+
+[Side note, I'll just say that I am so happy that I discovered Linux, and the
+rest of the UNIX multiverse.  It may be the best thing to ever happen to me or
+the best thing I've ever done.] 
+
+Collaboration was basically passing around zip files.  There was no way to
+easily or efficently check diffs.  Everything that I've learned in this course
+I've managed to do without it for years, but it was difficult to say the least.
+
+At the start of the course, either Sarah or Caroline said something to the
+effect of that git is difficult at first, but once you get used to it.  They're
+wrong.  I picked it up reasonably quickly.  Well, quicker than I've learned many
+other things.  Now that I have learned this, there is no going back to working
+without it!  I'll never work without git or some other version control system
+ever! 

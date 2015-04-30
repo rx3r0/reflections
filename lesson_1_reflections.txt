@@ -1,73 +1,66 @@
 Lesson 1 Reflections
 
 
-How did viewing a diff between two versions help you spot the bug that
-was introduced?
+How did viewing a diff between two versions help you spot the bug that was
+introduced?
 
-The file in question was very large and had many thousands of lines of
-code.  Manually examining the game.js file would have taken a very
-long time and would have been tedious to say the least.  In this type
-of situation, it was still possible to miss the differences in the two
-versions.  Here, it was something very small, just a small typo.  Very
-easy to miss.  Using diff, the changes were found very quickly, and
-the typo was found literally within seconds.
-
-
-How could having easy access to the entire history of a file make you
-a more efficient programmer in the long term?
-
-Complete access the the file history means that every change every
-made to the file can be referenced and compared at any point.  Also,
-it allows the programmer to revert to a previous version at any point.
+The file in question was very large and had many thousands of lines of code.
+Manually examining the game.js file would have taken a very long time and would
+have been tedious to say the least.  In this type of situation, it was still
+possible to miss the differences in the two versions.  Here, it was something
+very small, just a small typo.  Very easy to miss.  Using diff, the changes were
+found very quickly, and the typo was found literally within seconds.
 
 
-What do you think are the pros and cons of manually choosing when to
-create a commit, like you do in Git, vs having versions saved
-automatically?
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
 
-Having versions saved automatically is best when the programmer
-constantly forgets to manually make commits.  However, the commits may
-be at a regular interval instead of in a way that is more logical for
-and appropriate to the project, for example, after each bug fix or
-added feature.
+Complete access the the file history means that every change every made to the
+file can be referenced and compared at any point.  Also, it allows the
+programmer to revert to a previous version at any point.
 
 
-Why do you think some version control systems like Git, allow saving
-multiple files in one commit, while others, like Google Docs, treat
-each file separately?
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions saved automatically?
 
-The main reason would be the purpose of each of these systems.  Google
-Docs is more aimed at word processing, spreedsheet, and other office
-productivity tasks.  In this case, it is more common for files to be
-created and edited one at a time.  Git is more geared towards
-programming.  In this situation, edits are usually made across
-multiple files.
+Having versions saved automatically is best when the programmer constantly
+forgets to manually make commits.  However, the commits may be at a regular
+interval instead of in a way that is more logical for and appropriate to the
+project, for example, after each bug fix or added feature.
 
 
-How can you use the commands git log and git diff to view the history
-of files?
+Why do you think some version control systems like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
 
-git log is used to view the entire commit history of the repository.
-git diff is used to compare individual commits.  This can help in
-finding when bugs were introduced, for example, or when different
-features were added, as well as who made them.
-
-
-How might using version control make you more confident to make
-changes that could break something?
-
-Version control is many things, including a safety net.  With this net
-in place, it ensures that when the programmer goes off and gets
-adventurous and breaks something, he/she can easily fall back to the
-last known good commit before the adventure.
+The main reason would be the purpose of each of these systems.  Google Docs is
+more aimed at word processing, spreedsheet, and other office productivity tasks.
+In this case, it is more common for files to be created and edited one at a
+time.  Git is more geared towards programming.  In this situation, edits are
+usually made across multiple files.
 
 
-Now that you have your workspace set up, what would you try to use Git
-for?
+How can you use the commands git log and git diff to view the history of files?
 
-Short answer: EVERYTHING!  I'd use git for large, medium or small
-projects, to keep track of programs, example code, assignments for
-courses and even non-programming non-code things.
+git log is used to view the entire commit history of the repository.  git diff
+is used to compare individual commits.  This can help in finding when bugs were
+introduced, for example, or when different features were added, as well as who
+made them.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Version control is many things, including a safety net.  With this net in place,
+it ensures that when the programmer goes off and gets adventurous and breaks
+something, he/she can easily fall back to the last known good commit before the
+adventure.
+
+
+Now that you have your workspace set up, what would you try to use Git for?
+
+Short answer: EVERYTHING!  I'd use git for large, medium or small projects, to
+keep track of programs, example code, assignments for courses and even
+non-programming non-code things.
 
 
 

@@ -2,66 +2,62 @@ Lesson 2 Reflections
 
 What happens when you initalise a repository?  Why do you need to?
 
-The initialisation process creates the required metadata needed to
-keep track of the project.  Without it, there would be no way to track
-the history or do anything else.
+The initialisation process creates the required metadata needed to keep track of
+the project.  Without it, there would be no way to track the history or do
+anything else.
 
 
-How is the staging area different from the working directory and the
-repository?  What value do you think it offers?
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
 
-The working directory is usually where all the files that are being
-edited are stored.  The staging area is the space where files are
-added before they can be commited.  On commit, the files in the
-staging area are added to the repository.
-
-
-How can you use the staging area to make sure you have one commit per
-logical change?
-
-After each logical change, add the file or files with the logical
-change to the staging area.  To ensure that this is the change that is
-to be be committed, compare it to the working directory and to the
-most recent commit, or to the commit where the bug was introduced in
-the case of a bug fix.
+The working directory is usually where all the files that are being edited are
+stored.  The staging area is the space where files are added before they can be
+commited.  On commit, the files in the staging area are added to the repository.
 
 
-What are some situations when branches would be helpful in keeping
-your history organised?  How would branches help?
+How can you use the staging area to make sure you have one commit per logical
+change?
 
-Branches are useful and helpful whenever there is a need to deviate
-from the main/master branch.  Trying an experimental feature or
-alternative version are good examples.  Using git's own built in
-mechanisms for keeping track of branches is much easier than trying to
-use some other manual method of doing so.
+After each logical change, add the file or files with the logical change to the
+staging area.  To ensure that this is the change that is to be be committed,
+compare it to the working directory and to the most recent commit, or to the
+commit where the bug was introduced in the case of a bug fix.
+
+
+What are some situations when branches would be helpful in keeping your history
+organised?  How would branches help?
+
+Branches are useful and helpful whenever there is a need to deviate from the
+main/master branch.  Trying an experimental feature or alternative version are
+good examples.  Using git's own built in mechanisms for keeping track of
+branches is much easier than trying to use some other manual method of doing so.
 
 
 How do the diagrams help you visualise the branch structure?
 
-The diagrams show the structure of the branch as it is but only from
-that branch.  Other commits not on that branch are likely to not be shown.
+The diagrams show the structure of the branch as it is but only from that
+branch.  Other commits not on that branch are likely to not be shown.
 
 
-What is the result of merging two branches together?  Why do we
-represent it in the diagram the way we do?
+What is the result of merging two branches together?  Why do we represent it in
+the diagram the way we do?
 
-The result of merging two branches together appears to be one new long
-branch.  However, each commit in the branch may be the parent of the
-node after it.  Also, the head of the two branches still exists.
-However, the head of the previous branch is no longer pointing to the
-head.  Deleting that branch name will be inconsequential.
+The result of merging two branches together appears to be one new long branch.
+However, each commit in the branch may be the parent of the node after it.
+Also, the head of the two branches still exists.  However, the head of the
+previous branch is no longer pointing to the head.  Deleting that branch name
+will be inconsequential.
 
-The diagram shows were the commits branch off, then merge.  It is a
-visual aid for the programmer to help understand the commit,
-branching, and merging history of the project.
+The diagram shows were the commits branch off, then merge.  It is a visual aid
+for the programmer to help understand the commit, branching, and merging history
+of the project.
 
 
-What are the pros and cons for Git's automatic merging vs. always
-doing manual merges?
+What are the pros and cons for Git's automatic merging vs. always doing manual
+merges?
 
-There are some changes which appear "obvious".  These changes are
-often small, no-brainer type changes.  Automatic merging works best
-for this.  Doing manual merges would work fine as well, but if the
-changes are numerous, it would become very tedious.  However,
-automatic merges falls down in situations where the changes are not so
-clear cut and dry.  Manual merging works best here.
+There are some changes which appear "obvious".  These changes are often small,
+no-brainer type changes.  Automatic merging works best for this.  Doing manual
+merges would work fine as well, but if the changes are numerous, it would become
+very tedious.  However, automatic merges falls down in situations where the
+changes are not so clear cut and dry.  Manual merging works best here.

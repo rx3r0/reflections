@@ -34,7 +34,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 The main reason would be the purpose of each of these systems.  Google Docs is
 more aimed at word processing, spreedsheet, and other office productivity tasks.
-In this case, it is more common for files to be created and edited one at a
+In these cases, it is more common for files to be created and edited one at a
 time.  Git is more geared towards programming.  In this situation, edits are
 usually made across multiple files.
 
@@ -61,6 +61,3 @@ Now that you have your workspace set up, what would you try to use Git for?
 Short answer: EVERYTHING!  I'd use git for large, medium or small projects, to
 keep track of programs, example code, assignments for courses and even
 non-programming non-code things.
-
-
-

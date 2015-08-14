@@ -43,10 +43,10 @@ What is the result of merging two branches together?  Why do we represent it in
 the diagram the way we do?
 
 The result of merging two branches together appears to be one new long branch.
-However, each commit in the branch may be the parent of the node after it.
-Also, the head of the two branches still exists.  However, the head of the
-previous branch is no longer pointing to the head.  Deleting that branch name
-will be inconsequential.
+However, each commit in the branch may not necessarily be the parent of the node
+after it. Also, the head of the two branches still exists.  However, the head of
+the previous branch is no longer pointing to the head.  Deleting that branch
+name will be inconsequential.
 
 The diagram shows were the commits branch off, then merge.  It is a visual aid
 for the programmer to help understand the commit, branching, and merging history

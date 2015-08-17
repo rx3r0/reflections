@@ -4,7 +4,9 @@ local?
 Keeping data in multiple locations is a good redundancy measure (if redundancy
 is the right term). If, for example, something happened to the local work and it
 got corrupted, deleted, or otherwise lost, then it could be restrieved from the
-remote repository.
+remote repository.  Other reasons could be working from multiple machines, or if 
+only a very small change needs to be made.  This change could be made on the 
+remote instead of pulling, editing on the local machine, then pushing again.
 
 
 Why might you want to always pull changes manually rather than having Git

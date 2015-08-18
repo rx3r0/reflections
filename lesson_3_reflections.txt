@@ -77,6 +77,6 @@ master?  What benefits does each approach have?
 
 There are many reasons for making changes in branches, but most of them, as far
 as I can tell, are centred around doing something that may be different from
-everythign in master, but at the same time, don't want to mess with whatever is
-in master.  Bug fixes, experiemental features, new features, alternate versions
+everything in master, but at the same time, don't want to mess with whatever is
+in master.  Bug fixes, experimental features, new features, alternate versions
 are all examples of this.

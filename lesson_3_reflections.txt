@@ -61,7 +61,7 @@ rest of the UNIX multiverse.  It may be the best thing to ever happen to me or
 the best thing I've ever done.]
 
 Collaboration was basically passing around zip files.  There was no way to
-easily or efficently check diffs.  Everything that I've learned in this course
+easily or efficiently check diffs.  Everything that I've learned in this course
 I've managed to do without it for years, but it was difficult to say the least.
 
 At the start of the course, either Sarah or Caroline said something to the
